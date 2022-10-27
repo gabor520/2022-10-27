@@ -1,0 +1,36 @@
+main,nav,header,article,section,footer{
+    border:1px solid gray;
+    padding: 10px;
+}
+
+
+.nagykep>img .kep img{
+    width: 100%;
+}
+
+/*.nagykep{
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+    border-radius: 100px;
+} */
+@media screen and (max-width:800px){
+    .kiskep{
+        grid-template-columns:1fr;
+    }
+
+   
+}
+
+
+nav>ul{
+    grid-template-columns:1fr;
+    
+}
+
+nav{
+    grid-template-columns:1fr;
+}
+
+
+
