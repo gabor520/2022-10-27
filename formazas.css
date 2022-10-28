@@ -4,7 +4,7 @@ main,nav,header,article,section,footer{
 }
 
 
-.nagykep>img .kep img{
+.nagykep>img, .kep img{
     width: 100%;
 }
 
@@ -14,22 +14,60 @@ main,nav,header,article,section,footer{
     overflow:hidden;
     border-radius: 100px;
 } */
-@media screen and (max-width:800px){
-    .kiskep{
-        grid-template-columns:1fr;
-    }
 
-   
-}
 
 
 nav>ul{
     grid-template-columns:1fr;
     
 }
-
+.jobbra{
+    text-align: right;
+}
+.keret{
+    background-color: red;
+    color: white;
+}
 nav{
     grid-template-columns:1fr;
+    
+}
+ul{
+    margin: 0;
+    background-color: gray;
+}
+nav ul li a{
+    text-decoration:none;
+    width: 100px;
+    height: 50px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.kiskep{
+    border:1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5px;
+}
+img{
+    border: 1px solid black;
+}
+
+.nagykep{
+  border: 1px solid gray;  
+}
+
+
+@media screen and (max-width:800px){
+    .kiskep{
+        grid-template-columns:1fr;
+    }
+
+   
 }
 
 
